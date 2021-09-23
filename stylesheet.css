@@ -99,7 +99,6 @@ h1 {
     margin: 0 0 0 auto;
  }
  .main-visual {
-    display: flex;
     justify-content: center;
     align-items: center;
     background: url('head_fig.jpg') center no-repeat;
