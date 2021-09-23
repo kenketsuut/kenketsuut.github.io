@@ -104,13 +104,10 @@ h1 {
     align-items: center;
     background: url('head_fig.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
- }
- .main-visual::before{
-     content: '';
-     display: block;
-     padding-top: 50%;
+    height: 90vh;
  }
 h2 {
     margin: 0;
