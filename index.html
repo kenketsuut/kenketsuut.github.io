@@ -1,54 +1,51 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <html>
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>東京大学献血愛好会 公式HP</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
-<body>
-    <header>
-        <h1>
-            <a>東京大学献血愛好会</a>
-        </h1>
-        <nav class="pc_nav">
-            <ul>
-                <li>
-                    <a href="#">MEMBER</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <div class="main-visual">
-    </div>
-
-    <div class="container">
-        <a>現在作成中です。</a>
-    </div>
-    <footer>
-        <div class="footer">
-            <div id="copyright">
-                <p><a href="https://www.charter-blog.com/privacy-policy">プライバシーポリシー</a>　/　
+<body background="fig/background.gif">
+    <center>
+        <table width="230">
+            <tr>
+                <td>
+                    <a>
+                        東京大学献血愛好会
+                    </a>
+                    <img src="fig/head_fig.jpg" width="700">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    現在作成中です。
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.charter-blog.com/privacy-policy">プライバシーポリシー</a> /
                     <a href="https://www.charter-blog.com/contact">お問い合わせ</a>
-                </p>
+                </td>
+            </tr>
+            <tr>
                 <!--&copy; 2021-<span id="thisYear"></span> 東京大学献血愛好会-->
-                &copy; 2021 東京大学献血愛好会
-            </div>
+                <td>
+                    <a>&copy; 2021 東京大学献血愛好会</a>
+                </td>
+                <script type="text/javascript">
+                    date = new Date();
+                    thisYear = date.getFullYear();
+                    document.getElementById("thisYear").innerHTML = thisYear;
+                </script>
+            </tr>
+        </table>
 
-            <script type="text/javascript">
-                date = new Date();
-                thisYear = date.getFullYear();
-                document.getElementById("thisYear").innerHTML = thisYear;
-            </script>
-        </div>
-    </footer>
+    </center>
 </body>
 
 </html>
