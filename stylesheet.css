@@ -102,8 +102,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    background: url('head_fig.jpg') top center / cover no-repeat;
+    background: url('head_fig.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+ }
+ .main-visual::before{
+     content: '';
+     display: block;
+     padding-top: 50%;
  }
 h2 {
     margin: 0;
