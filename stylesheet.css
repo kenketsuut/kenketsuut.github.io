@@ -71,7 +71,7 @@ a {
 
 header {
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(88, 13, 13);
   padding: 30px 4% 10px;
   position: fixed;
   top: 0;
@@ -84,7 +84,7 @@ h1 {
  }
  a {	
     text-decoration: none;
-    color: #4b4b4b;
+    color: #ffffff;
  }
  ul {
     list-style: none;
@@ -105,21 +105,17 @@ h1 {
     height: 90vh;
     background: url('head_fig.jpg') top center / cover no-repeat;
  }
- h2 {
+h2 {
     margin: 0;
     font-size: 30px;
     font-weight: normal;
     color: #fff;
- }
+}
 
 #copyright {
     padding: 20px;
     text-align: center;
     font-size: 12px;
-}
-
-footer img {
-  width: 125px;
 }
 
 footer p {
