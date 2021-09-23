@@ -3,8 +3,11 @@
 }
 
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Times New Roman,"Times New Roman",HiraMinProN-W3, '游明朝','Yu Mincho',YuMincho;
+    background-color: #3d3d3d
 }
 
 a {
@@ -36,15 +39,6 @@ a {
   font-size: 16px;
   margin-bottom: 40px;
 }
-
-.btn-wrapper {
-  text-align: center;
-}
-
-.btn-wrapper p {
-  margin-bottom: 20px;
-}
-
 .signup {
   background-color: #239b76;
 }
@@ -111,15 +105,6 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -128,22 +113,6 @@ header {
 
 .heading h2 {
   font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
 }
 
 .text-contents {
@@ -177,6 +146,12 @@ header {
   box-shadow: none;
 }
 
+#copyright {
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
 footer img {
   width: 125px;
 }
@@ -187,8 +162,9 @@ footer p {
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-icon {
@@ -201,21 +177,6 @@ footer {
 
 .clear {
   clear: left;
-}
-
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
-  footer {
-    text-align: center;
-  }
 }
 
 @media all and (max-width: 750px) {
@@ -255,14 +216,6 @@ footer {
 
   .top-wrapper p {
     font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
   }
 
   .message-wrapper .btn {
